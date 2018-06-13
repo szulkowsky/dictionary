@@ -145,11 +145,17 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Element.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="myVector.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Dictionary.cpp" />
+    <ClCompile Include="Element.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="myVector.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
